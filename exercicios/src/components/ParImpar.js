@@ -8,8 +8,6 @@ function parOuImpar(num) {
     } else {
         return <Text style={Padrao.ex}>Impar</Text>
     }*/
-    const v = num % 2 == 0 ? 'Par' : 'Impar'
-    return <Text style={Padrao.ex}>{v}</Text>
 }
 
 export default props =>
